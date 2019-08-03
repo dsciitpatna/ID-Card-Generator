@@ -16,13 +16,11 @@ $arrayName=$sheetData;
 $rowSize = count( $arrayName );
 $columnSize = max( array_map('count', $arrayName) );
 
-for($x=1; $x<=70; $x++){
+for($x=1; $x<=180; $x++){
       $name = $sheetData[$x][1];
       $class = $sheetData[$x][2];
       $dob = $sheetData[$x][6];
       $phone = $sheetData[$x][7];
       $father = $sheetData[$x][4];
-      save($name, $class, $dob, $phone, $father);
-      // echo "done <br>";
-      //print_r($sheetData[$x][0]);
+      save($name, $class, $dob, $phone, $father, $x);
 }
