@@ -19,26 +19,26 @@
 
 
 <?php function save($name, $class, $dob, $phone, $father, $x){ ?>
-    <div class="container" style="background-color:#F6F8ED;height:68vh;width:45vh" id="<?php echo $x?>">
+    <div class="container" style="background-color:#F6F8ED;height:58vh;width:40vh" id="<?php echo $x?>">
         <div class="jumbotron jumbotron-fluid  text-white text-center"
-            style="background-color:white;width:300px;margin:-10px auto;height:60px;">
+            style="background-color:white;width:300px;margin:-10px auto;height:30px;">
 
             <div class="container">
-                <h1 class="display-1" style="font-size:18px;color:black;margin-top:-13px"><strong>ADHYAYAN NSS IIT PATNA <br>अध्ययन</strong>
+                <h1 class="display-1" style="font-size:18px;color:black;margin-top:-18px"><strong>ADHYAYAN NSS IIT PATNA <br>अध्ययन</strong>
                 </h1>
                 <hr style="width:210px;" />
             </div>
         </div>
         <div class="row justify-content-sm-center justify-center">
                 <div class="photo"
-                    style="width:200px;height:250px;background-color:white;box-shadow: 10px 10px 20px;border:1px solid blue;margin-left:60px; margin-top:18px">
+                    style="width:200px;height:250px;background-color:white;box-shadow: 10px 10px 20px;border:1px solid blue;margin-top:-10px">
                 </div>
         </div>
         <br>
 
-        <div class="row justify-content-sm-center ">
+        <div class="row justify-content-sm ">
 
-                <div style="margin-left: 20px">
+                <div style="margin-left: 30px">
                     <form>
                         <label style="font-size:12px;"><strong>Name: <?php echo $name ?></strong></label><br>
                         <label style="font-size:12px;"><strong>Class: <?php echo $class ?></strong></label><br>

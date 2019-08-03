@@ -15,8 +15,10 @@ $sheetData = $spreadsheet->getSheetByName($unit)->toArray();
 $arrayName=$sheetData;
 $rowSize = count( $arrayName );
 $columnSize = max( array_map('count', $arrayName) );
+$start = 161;
+$end = 180;
 
-for($x=1; $x<=180; $x++){
+for($x=$start; $x<=$end; $x++){
       $name = $sheetData[$x][1];
       $class = $sheetData[$x][2];
       $dob = $sheetData[$x][6];
